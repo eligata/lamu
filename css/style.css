@@ -1,0 +1,469 @@
+/*
+* Template Name: Webiz
+* Template URI: https://www.salvatoremandis.it
+* Description: Webiz Digital Agency - Responsive Bootstrap Template
+* Author: Salvatore Mandis
+* Author URI: https://www.salvatoremandis.it
+*/
+
+.page-section {
+    padding: 50px 0;
+    padding-bottom: 250px;
+    min-height: 700px;
+}
+
+.title.text-center {
+    margin-bottom: 75px;
+}
+
+.even {
+    background-color: #f8f9fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #888;
+    -webkit-font-smoothing: antialiased;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    padding: 0 !important;
+}
+
+
+/* Logo resize */
+
+.home-logo {
+    margin-top: -100px !important;
+    max-height: 450px;
+}
+
+.navbar-brand img {
+    height: 4rem;
+    padding-left: 3rem;
+}
+
+.navbar-nav {
+    margin-right: 3rem;
+}
+
+.navbar-nav li {
+    padding: 0 1rem;
+}
+
+.navbar-nav li {
+    padding: 0 1rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1723b1!important;
+}
+
+.fa-bars {
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/* --------- Banner ---------- */
+
+.banner {
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    color: #fff;
+    padding-top: 5%;
+    margin-bottom: 250px;
+}
+
+.promo-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.join-title {
+    font-size: 1.44rem;
+}
+
+.link-play {
+    text-decoration: none;
+}
+
+.link-play:hover {
+    color: #58f0ff;
+    text-decoration: none!important;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px 0;
+    margin-right: 2em;
+    text-decoration: none !important;
+    transition: transform 1.2s;
+}
+
+.play-btn:hover {
+    color: #444;
+    text-decoration: none!important;
+    transform: scale(1.2);
+}
+
+.banner a {
+    color: #fff;
+    text-decoration: none!important;
+}
+
+.img-fluid {
+    margin-top: 4rem;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+/* ---------- Services --------- */
+
+.service-img {
+    width: 130px;
+    margin-top: 2rem;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 1em;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.title::after {
+    content: '';
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    height: 8px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 70px;
+    transform: translateY(23px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    transition: transform 1.2s;
+}
+
+#services .btn-primary:hover {
+    transform: scale(1.2);
+}
+
+
+/* -----------   About -------------*/
+
+
+/* #about{ padding-bottom: 3rem; padding-top: 3rem;} */
+
+.about-title {
+    font-size: 1.6em;
+    margin-top: 8%;
+    font-weight: 600;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+#about ul {
+    margin-left: 20px;
+}
+
+
+/* ------- Testimonials Section -----*/
+
+
+/* #testimonials{margin: 100px 0;} */
+
+.testimonials {
+    border-left: 3px solid #1723b1;
+    margin: 50px 0;
+}
+
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.feedback {
+    font-style: italic;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+
+/* ----- Footer ------*/
+
+#footer {
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    color: #fff;
+    padding-bottom: 10px !important;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin: 20px 0;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    width: 8rem;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #1723b1, #58f0ff);
+    color: #fff;
+    transition: transform 1.2s;
+}
+
+.footer-box .btn-primary:hover {
+    transform: scale(1.2);
+    color: #fff;
+}
+
+
+/*-------- Social Media icons ---------- */
+
+#social p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#social .social-icons .svg-icons img {
+    width: 23px;
+    transition: transform .7s;
+    margin-right: 1rem;
+}
+
+#social .social-icons .svg-icons img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    padding-top: 2%;
+    font-size: 15px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+    color: #1723b1;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .services {
+        background: whitesmoke;
+        padding: 50px 0;
+        color: black;
+    }
+}
+
+.wide {
+    margin-left: 0px !important;
+    margin-right: opx !important;
+    max-width: 100% !important;
+}
+
+.img-title {
+    margin-top: -75px;
+    color: whitesmoke;
+}
+
+.service-item {
+    margin-bottom: 15px;
+}
+
+.service-icon {
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 96px;
+    width: 200px;
+    height: 200px;
+    line-height: 196px;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.65;
+    text-align: center;
+}
+
+.service-icon>i {
+    width: 80px;
+}
+
+.fa-shopping-bag {
+    content: url("../images/icons/shopping-bag.svg");
+}
+
+.fa-plane {
+    content: url("../images/icons/plane.svg");
+}
+
+.fa-check-circle-o {
+    content: url("../images/icons/check-circle.svg");
+}
+
+.fa-car {
+    content: url("../images/icons/car.svg");
+}
+
+.fa-cubes {
+    content: url("../images/icons/cubes.svg");
+}
+
+.fa-bicycle {
+    content: url("../images/icons/bicycle.svg");
+}
+
+.fa-motorcycle {
+    content: url("../images/icons/motorcycle.svg");
+}
+
+.fa-bus {
+    content: url("../images/icons/bus.svg");
+}
+
+.fa-ship {
+    content: url("../images/icons/ship.svg");
+}
+
+h4.service-title {
+    padding: 20px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.service-icon:hover {
+    background: whitesmoke;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10000 !important;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+
+.ui-autocomplete>li>div {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.ui-state-hover,
+.ui-state-active,
+.ui-state-focus {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
